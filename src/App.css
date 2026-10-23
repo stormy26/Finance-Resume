@@ -20,20 +20,34 @@
 #center-block{
   width: 50%;
   text-align: center;
-  margin: 40vh 50vh;
+  margin: 0;
 }
 
 /* Home component icons */
 #linkedin-icon img{
   width: 24px;
   height: 24px;
-  margin: 10vh 10vh;
+  margin: 3vh auto;
+  display: block;
 }
 
 #home-block{
   min-height: 90vh; /* the navbar uses 10vh, so this fills the rest */
   background: url('./assets/landscape-bg.png') no-repeat center/cover;
   overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+@media (max-width: 768px) {
+  #home-block {
+    background: url('./assets/portrait-bg.png') center / cover no-repeat;
+  }
+
+  #center-block {
+    width: 50%;
+  }
 }
 
 #about-block{
