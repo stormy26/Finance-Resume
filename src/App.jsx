@@ -6,10 +6,10 @@ import './App.css'
 import Navbar from './components/Navbar';
 
 // import the pages
-import About from './pages/about';
-import Home from './pages/home';
-import Experience from './pages/experience';
-import Activities from './pages/activities';
+import About from './pages/About';
+import Home from './pages/Home';
+import Experience from './pages/Experience';
+import Activities from './pages/Activities';
 
 function App() {
   return (

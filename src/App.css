@@ -7,6 +7,7 @@
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
+  font-family: var(--sans);
 }
 
 .nav-link{
@@ -17,8 +18,54 @@
 }
 
 #center-block{
-  border: 1px solid #2B3A67;
-  width: 80%;
+  width: 50%;
   text-align: center;
-  margin: 20vh 20vh;
+  margin: 40vh 50vh;
+}
+
+/* Home component icons */
+#linkedin-icon img{
+  width: 24px;
+  height: 24px;
+  margin: 10vh 10vh;
+}
+
+#home-block{
+  min-height: 90vh; /* the navbar uses 10vh, so this fills the rest */
+  background: url('./assets/landscape-bg.png') no-repeat center/cover;
+  overflow: auto;
+}
+
+#about-block{
+  min-height: 90vh; /* the navbar uses 10vh, so this fills the rest */
+  background: url('./assets/landscape-bg-noflowers.png') no-repeat center/cover;
+  overflow: auto;
+}
+
+#experience-block{
+  min-height: 90vh; /* the navbar uses 10vh, so this fills the rest */
+  background: url('./assets/landscape-bg-noflowers.png') no-repeat center/cover;
+  overflow: auto;
+}
+
+#activities-block{
+  min-height: 90vh; /* the navbar uses 10vh, so this fills the rest */
+  background: url('./assets/landscape-bg-noflowers.png') no-repeat center/cover;
+  overflow: auto;
+}
+
+#getCV-button{
+  text-align: center;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #D496A7;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-bottom: 4px solid #572331;
+  font-weight: 700;
+  color: white;
+  line-height: 26px;
 }

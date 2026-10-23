@@ -1,6 +1,7 @@
 function Activities() {
     return (
         <>
+        <div id="activities-block">
             <section>
                 <h1>AWARDS AND RECOGNITIONS</h1>
                 <ul>
@@ -60,6 +61,7 @@ function Activities() {
                 <h1>REFERENCES</h1>
                 <p>Available upon request</p>
             </section>
+        </div>
         </>
     )
 }

@@ -1,13 +1,34 @@
 function About() {
     return (
         <>
-            <section>
-                <h1>About me</h1>
-                <h1>Phone: +63-966-337-3863</h1>
-                <h1>Email: abby.gail.tiongson@gmail.com</h1>
-                <h1>Address: 4900 NOVALICHES ST., BRGY. OLYMPIA MAKATI CITY</h1>
-                <h1>LinkedIn: https://wv.nu.linkedin.com/in/abby-gail-tiongson-cpa/</h1>
-            </section>
+        <div id="about-block">
+        <section id="about-contact">
+            <h1>About me</h1>
+            <ul className="contact-list">
+                <li>
+                    <strong>Phone:</strong>{' '}
+                    +63-966-337-3863
+                </li>
+                <li>
+                    <strong>Email:</strong>{' '}
+                    abby.gail.tiongson@gmail.com
+                </li>
+                <li>
+                    <strong>Address:</strong>{' '}
+                    4900 Novaliches St., Brgy. Olympia, Makati City
+                </li>
+                <li>
+                    <strong>LinkedIn:</strong>{' '}
+                    <a
+                        href="https://www.linkedin.com/in/abby-gail-tiongson-cpa/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Abby Gail Tiongson, CPA
+                    </a>
+                </li>
+            </ul>
+        </section>
 
             <section>
                 <h1>Technical Skills</h1>
@@ -39,6 +60,7 @@ function About() {
                     <li>Public Speaking</li>
                 </ul>
             </section>
+        </div>
         </>
     )
 }

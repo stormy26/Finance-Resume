@@ -1,7 +1,8 @@
 function Experience() {
     return (
         <>
-            <section>
+        <div id="experience-block">
+             <section>
                 <h1>SyCip Gorres Velayo & Co.</h1>
                 <h2>Tax Advisory Associate</h2>
                 <h3>Present</h3>
@@ -71,7 +72,7 @@ function Experience() {
                     <li>Best in Mathematics</li>
                 </ul>
             </section>
-
+        </div>
         </>
     )
 }
